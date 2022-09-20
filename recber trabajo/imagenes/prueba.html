@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrícula de imágenes - By Parzibyte</title>
+    <!--
+			https://parzibyte.me/blog
+		-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .columna {
+            float: left;
+            width: 33%;
+            padding-right: 5px;
+        }
+
+        .fila::after {
+            content: "holaaa";
+            clear: both;
+            display: table;
+        }
+
+        img {
+            /* Para que sea responsiva */
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fila">
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+    </div>
+    <div class="fila">
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+        <div class="columna">
+            <img src="https://picsum.photos/800/600">
+        </div>
+    </div>
+</body>
+<html>
+	<head>
+	    <title>Fondo de prueba</title>
+	</head>
+
+	<body background="" bgcolor="FFCECB">
+
+	<table width="550" bgcolor=FFCECB align=center>
+	<tr>
+	    <td>
+
+	    <h1 style="color:000000">Probando...</h1>
+	    <br>
+	    Este texto se lee bien porque tiene un fondo plano.
+	    <br>
+
+	    </td>
+	</tr>
+	</table>
+
+	</body>
+	</html>
+
+</html>
