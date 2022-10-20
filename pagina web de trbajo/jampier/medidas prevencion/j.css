@@ -1,0 +1,16 @@
+
+#titulo{
+    background-color: yellowgreen;
+    text-align: center;
+    border: outset 5px rgb(21, 18, 18);
+    color: rgb(6, 6, 6);
+    margin: 10px;
+    padding: 30px 25px 20px 15px;
+
+
+}
+
+body{
+    background-color:khaki;
+    font-family: 'Roboto', sans-serif;
+}
